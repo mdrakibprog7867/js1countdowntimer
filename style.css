@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(./images/img1.jpg);
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    /* background-repeat: repeat-y; */
+}
+
+/* .container{
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center;
+
+} */ 
+
+.main-heading{
+    height: 15vh;
+    text-align: center;
+}
+
+.heading{
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space{
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.bold{
+    font-weight:bolder;
+    font-size: 60px;
+}
+
+
+.heading:hover{
+    /* color: rgb(35, 14, 231); */
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.days:hover{
+    /* color: rgb(7, 124, 75); */
+    text-shadow: blue 1px 0 10px;
+    
+}
+.minutes:hover{
+    /* color: rgb(248, 7, 19); */
+    text-shadow: green 1px 0 10px;
+    
+}
+.hours:hover{
+    /* color: rgb(244, 153, 86); */
+    text-shadow: yellow 1px 0 10px;
+    
+}
+.seconds:hover{
+    /* color: rgb(248, 14, 231); */
+    text-shadow: pink 1px 0 10px;
+    
+}
